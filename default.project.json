@@ -1,0 +1,37 @@
+{
+	"name": "Rojo",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$path": "src/ReplicatedStorage",
+			"$ignoreUnknownInstances": true
+		},
+		"ServerScriptService": {
+			"$path": "src/ServerScriptService"
+		},
+		"ServerStorage": {
+			"$path": "src/ServerStorage",
+			"$ignoreUnknownInstances": true,
+			"commitHash": {
+				"$path": {
+					"optional": "commit-hash.txt"
+				}
+			}
+		},
+		"StarterGui": {
+			"$path": "src/StarterGui",
+			"$ignoreUnknownInstances": true
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterCharacterScripts": {
+				"$className": "StarterCharacterScripts",
+				"$path": "src/StarterPlayer/StarterCharacterScripts"
+			},
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/StarterPlayer/StarterPlayerScripts"
+			}
+		}
+	}
+}
